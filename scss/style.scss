@@ -1,0 +1,18 @@
+@import "_mixin.scss";
+@import "common.scss";
+section {
+    width: 100%;
+    padding: 0 pxTorem(10px);
+    @include sizing;
+    .shop {
+        width: 100%;
+        height: pxTorem(300px);
+        background: rgb(146, 0, 37);
+        p {
+            height: pxTorem(44px);
+            line-height: pxTorem(44px);
+            font-size: pxTorem(18px);
+            color: #ccc;
+        }
+    }
+}
