@@ -1,5 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
 html,
 body,
+<<<<<<< HEAD
 div,
 span,
 applet,
@@ -205,3 +213,38 @@ section .shop p {
   font-size: 0.48rem;
   color: #ccc;
 }
+=======
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    width: 100%;
+    background: #000;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li {
+    align-items: center;
+    text-align: center;
+}
+
+footer ul li a {
+    display: block;
+}
+
+footer ul li i.icon {
+    text-align: center;
+    color: #000;
+}
+>>>>>>> 05f736088621ce935d13a40a43cac9e9d8369bea
